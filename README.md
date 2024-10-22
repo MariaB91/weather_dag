@@ -1,7 +1,7 @@
-# Documentation des choix pour le DAG de traitement des données météorologiques
+# Documentation des choix pour le DAG de traitement Weather Data
 
 ## 1. Collecte des données météo
-Pour la collecte des données, j'ai utilisé l'API **OpenWeatherMap**, car elle fournit des informations météorologiques en temps réel pour différentes villes. Pour c eprojet il s'agit de  trois villes (Paris, Londres, Washington) pour obtenir une diversité géographique. Les données sont enregistrées sous forme de fichiers JSON dans le dossier `/app/raw_files`. Chaque fichier est horodaté pour une gestion facile des versions.
+Pour la collecte des données, il nous a ete suggere d'utiliser l'API **OpenWeatherMap**, car elle fournit des informations météorologiques en temps réel pour différentes villes. Pour c eprojet il s'agit de  trois villes (Paris, Londres, Washington) pour obtenir une diversité géographique. Les données sont enregistrées sous forme de fichiers JSON dans le dossier `/app/raw_files`. Chaque fichier est horodaté pour une gestion facile des versions.
 
 ## 2. Transformation des données
 ### a. Conversion des dernières 20 fichiers en CSV
